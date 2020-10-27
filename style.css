@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.box{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    position: absolute;
+    padding: 70px 30px;
+    box-shadow: 20px 20px 60px #030303;
+    transition: 1s;
+
+}
+.box:hover{
+    background: #2e151fb8;
+}
+.avatar{
+    width: 100px;
+    position: absolute;
+    height: 100px;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+.box h1{
+    margin: 0;
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #508d8d;
+}
+.form-box {
+    margin-top: 50px;
+}
+.form-box p{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+
+}
+.form-control{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #c8a1a1;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #fff;
+    
+    
+}
+
+.form-control::placeholder{
+    color: gray;
+    opacity: 1;
+}
+
+
+.btn-snd{
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background: #115eeb;
+    padding: 10px 50px;
+    border: 1px solid #115eeb;
+    text-transform: capitalize;
+    border-radius: 5px;
+    outline: none;
+    transition: 1s;
+}
+
+.btn-snd:hover{
+    background:aqua;
+    color: #000;
+    cursor: pointer;
+}
+
+.form-r{
+    margin-top: 40px;
+}
+
+.form-r a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.form-r a:hover{
+    color: aqua;
+    
+}
